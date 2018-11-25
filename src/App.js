@@ -1,27 +1,45 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { Route, Switch } from "react-router-dom";
+import Heading from "./Components/Heading/Heading";
+import Home from "./Components/Home/Home";
+import Vacancies from "./Components/Vacancies/Vacancies";
+import Admin from "./Components/Admin/Admin";
+import AdminVacancies from "./Components/Admin/AdminVacancies";
+import AdminVacanciesJAE from "./Components/Admin/AdminVacanciesJAE";
+import AdminManagement from "./Components/Admin/AdminManagement";
+import VacancyManagement from "./Components/Admin/VacancyManagement";
+import AddVacancy from "./Components/Admin/AddVacancy";
+import Footer from "./Components/Footer/Footer";
+
+
+
+
+
+
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+    return <div className="App">
+        <header className="App">
+          <Heading />
         </header>
-      </div>
-    );
+        <div className="underHeading">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/vacancies" component={Vacancies} />
+            <Route path="/admin" component={Admin} />
+            <Route path="/adminManagement" component={AdminManagement} />
+            <Route path="/adminVacancies" component={AdminVacancies} />
+            <Route path="/adminVacanciesJAE" component={AdminVacanciesJAE} />
+            <Route path="/vacancyManagement" component={VacancyManagement} />
+            <Route path="/addVacancy" component={AddVacancy} />
+          </Switch>
+        </div>
+      <footer>
+        <Footer />
+      </footer>
+      </div>;
   }
 }
 

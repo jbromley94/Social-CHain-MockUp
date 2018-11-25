@@ -1,32 +1,101 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+
+.footer {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logHeading {
   display: flex;
-  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+}
+
+.underHeading {
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .underHeading {
+    padding-top: 278px;
+  }
+}
+
+.submitBut {
+  background-color: black;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.Title {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 300%;
+  text-transform: uppercase;
+  line-height: 72px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+@media (max-width: 180px) {
+  .underHeading {
+    padding-top: 332px;
+  }
+}
+
+.TitleDiv {
+  display: flex;
+  color: black;
+  text-align: center;
+  margin: auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.mapTitles {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.commentBox {
+  font-size: 12px;
+}
+
+.createdInfo {
+  float: left;
+  padding-left: 1.5%;
+}
+
+.creator {
+  float: right;
+  padding-right: 1.5%;
+}
+
+h1 {
+  font-size: 70px;
+  text-decoration: underline;
+  font-family: "Cinzel", serif;
 }

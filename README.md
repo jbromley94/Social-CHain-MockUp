@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# jb-northcoder-news
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+Hello,
+You have made it to the README for my app- Northcoders News.
+Northcoders News is a social news aggregation, web content rating, and discussion website. Think something along the lines of Reddit.
 
-### `npm start`
+This app uses my existing API - [jb-northcoder-news](https://jb-northcoder-news.herokuapp.com/).
+This app is the front-end to this API.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installing
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+To acquire the files you shall have to use this snippet in the command line, make sure that you have cd'd into the directory you wish to clone into :
 
-### `npm test`
+```
+git clone https://github.com/jbromley94/FE2-NC-News.git
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Below lays out the npm installs one shall have to use to get the app up and running.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use this program you will have to run the following, this is provided you have set up your npm and git environments, as well as cd'ing into the clone directory
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+For all npm packages needed just run :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+The versions are as follows :
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+````
+    axios: 0.18.0,
+    bootstrap: 4.1.3,
+    moment: 2.22.2,
+    react: 16.4.2,
+    react-bootstrap: 0.32.1,
+    react-dom: 16.4.2,
+    react-loading-screen: 0.0.17,
+    react-router: 4.3.1,
+    react-router-dom: 4.3.1,
+    react-scripts: 1.1.4
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The final task to carry out will be to run the app by typiing the following command into your terminal, given you have navigated to the correct directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm start
+````
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ReactJS](https://reactjs.org/)
+- [axios](https://github.com/axios/axios)
+
+## Authors
+
+- **Jordan Bromley** - [My Github](https://github.com/jbromley94)
+
+## Acknowledgments
+
+- Thanks to Northcoders
+```# Social-CHain-MockUp

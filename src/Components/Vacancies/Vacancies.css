@@ -1,0 +1,84 @@
+.Openings {
+  float: none;
+  clear: both;
+  width: 700px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  color: white;
+  text-decoration: underline;
+  font-size: 38px;
+}
+
+.formitem {
+  display: inline-block;
+  margin:auto;
+  text-align: left;
+}
+
+.oddBut {
+  background-color: aquamarine;
+}
+
+.vacDropbtn {
+  background-color: #ff6600;
+  color: black;
+  display:block;
+  text-align:center;
+  padding: 16px;
+  margin-top: 5%;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.vacDropbtnEve {
+  background-color: #ff0066;
+  color: black;
+  padding: 16px;
+  margin-top: 5%;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.vacDropdown-content {
+  display: none;
+  position: relative;
+  background-color: #e3e9e3f5;
+  font-family: "Playfair Display", serif;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+}
+
+.vacDropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.vacDropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.vacDropdown:hover .vacDropdown-content {
+  display: block;
+}
+
+.left:hover .vacDropbtn {
+  background-color: #adb8ae;
+}

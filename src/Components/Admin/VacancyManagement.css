@@ -1,0 +1,30 @@
+.vacToRemove {
+  display: flex;
+  width: auto;
+}
+
+.jobTitle{
+  margin:12%;
+
+}
+
+.Remover {
+  position: absolute;
+  right: 0;
+  margin-top:6%;
+}
+
+.addVac{
+  color: black;
+}
+
+
+
+.lisItem {
+  background-color: #ff6600;
+margin-top: 5%;}
+
+.lisItemEve {
+  background-color: #ff0066;
+  margin-top: 5%;
+}

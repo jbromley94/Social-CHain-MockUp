@@ -1,0 +1,34 @@
+.AdminManager {
+  float: none;
+  clear: both;
+  width: 700px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 0 auto;
+}
+
+.Options {
+  display: inline-flex;
+  padding: 7%;
+
+}
+.linkTo {
+  text-decoration: none;
+  color: black;
+}
+
+.ManageApplicants {
+  background-color: #ff6600;
+  padding: 20%;
+}
+
+.AddRemVacancies {
+  background-color: rgb(153, 255, 51);
+  padding: 20%;
+}
+
+.SearchBar {
+  width: 33%;
+}
