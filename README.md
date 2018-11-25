@@ -32,16 +32,11 @@ npm install
 The versions are as follows :
 
 ````
-    axios: 0.18.0,
-    bootstrap: 4.1.3,
-    moment: 2.22.2,
-    react: 16.4.2,
-    react-bootstrap: 0.32.1,
-    react-dom: 16.4.2,
-    react-loading-screen: 0.0.17,
-    react-router: 4.3.1,
-    react-router-dom: 4.3.1,
-    react-scripts: 1.1.4
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-player": "^1.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
     ```
 
 The final task to carry out will be to run the app by typiing the following command into your terminal, given you have navigated to the correct directory:
