@@ -50,7 +50,6 @@ npm start
 ## Built With
 
 - [ReactJS](https://reactjs.org/)
-- [axios](https://github.com/axios/axios)
 
 ## Authors
 
